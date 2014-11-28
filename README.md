@@ -8,6 +8,7 @@ The input component is based on [JavaScript-MD5](https://github.com/blueimp/Java
 
 ```bash
 npm install --save-dev ember-cli-md5
+ember generate md-5
 ```
 
 ## Usage
