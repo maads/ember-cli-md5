@@ -1,25 +1,25 @@
-# Ember-cli-md5
+# Ember CLI MD5
 
-This README outlines the details of collaborating on this Ember addon.
+The addon provides you a component to generate MD5 hashes.
+
+The input component is based on [JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5).
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```bash
+npm install --save-dev ember-cli-md5
+```
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```handlebars
+{{md-5 value=StringToBeHashed}}
+```
 
-## Running Tests
+## Contributing
 
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
