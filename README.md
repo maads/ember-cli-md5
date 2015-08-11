@@ -14,7 +14,7 @@ ember generate md-5
 ## Usage
 
 ```handlebars
-{{md-5 value=StringToBeHashed}}
+{{md-5 value='StringToBeHashed'}}
 ```
 
 ## Contributing
